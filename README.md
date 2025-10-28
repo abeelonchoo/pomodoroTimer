@@ -87,8 +87,8 @@ body {
 }
 ```
 
-**## 🌐 Navegadores soportados
-**
+## 🌐 **Navegadores soportados**
+
 - ✅ Chrome
 - ✅ Firefox
 - ✅ Safari
