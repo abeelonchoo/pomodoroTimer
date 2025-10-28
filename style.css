@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    background-color: #dcf4d5f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@font-face{
+    font-family: "titulo";
+    src: url("Robaga\ Rounded\ Bold.otf");
+}
+.cajita{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #cfd7fdb3;
+    width: 700px;
+    height: 500px;
+    border: 3px solid #bbc5f8;
+    border-radius: 20px;
+}
+
+.cajita1{
+     font-family: "titulo", sans-serif;
+    display:flex;
+    word-spacing: 20px;
+    text-align: center;
+    align-items: center;
+   justify-content: center;
+   border-bottom:2px solid #b77190;
+
+    border-radius: 20px;
+width: 100%;
+height: 15vh;
+background-color: #f1d4e1;
+overflow: hidden;
+}
+
+h1{
+    animation: deslizar 10s ease infinite;
+}
+
+@keyframes deslizar {
+    from {transform: translateX(-175%);}
+    to {transform: translateX(175%);}
+}
+
+
+@font-face {
+    font-family: 'Redonda';
+    src: url("Odin\ Rounded\ -\ Bold.otf");
+}
+
+
+#timer{
+    display: flex;
+    font-family: "Redonda", sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    margin-top: 13vh;
+    color: #f1d4e1;
+   -webkit-text-stroke: 2px #e3c0cf;
+   border-radius: 30px;
+   transition: letter-spacing 2s ease;
+}
+
+#timer:hover{
+    color: #e8bfd29e;
+       -webkit-text-stroke: 2px #d5acbe;
+       letter-spacing: 10px;
+}
+
+button{
+    background-color: #b370ea39;
+    border: none;
+    border: 1px solid black;
+    padding: 15px 15px;
+    border-radius: 20px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+button:hover{
+    background-color: #9b5bd14b;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap:20px;
+}
