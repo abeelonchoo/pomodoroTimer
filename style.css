@@ -40,7 +40,7 @@ overflow: hidden;
 }
 
 h1{
-    animation: deslizar 10s ease infinite;
+    animation: deslizar 20s ease infinite;
 }
 
 @keyframes deslizar {
